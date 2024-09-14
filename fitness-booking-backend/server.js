@@ -139,7 +139,6 @@ app.post("/cancel", (req, res) => {
 });
 
 // Fetch users booking with optional filters and pagination
-// Endpoint to fetch user bookings with optional filters and pagination
 app.get("/user/bookings", (req, res) => {
   const { userId, classType, date, page = 1, limit = 5 } = req.query;
 
