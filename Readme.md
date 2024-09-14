@@ -143,3 +143,9 @@ The `UserBookings` component implements pagination to handle large datasets:
 - **Database Integration:** Replace in-memory storage with a database (e.g., MongoDB, PostgreSQL) for persistent data.
 - **More Features:** Add more detailed filtering options (e.g., time slots) and notifications for waitlisted bookings.
 - **Error Handling:** Implement better error handling for API requests and user interactions.
+
+## Screenshots 
+
+![image](https://github.com/user-attachments/assets/ffdcfab4-362d-429c-a366-62b8d7122564)
+![image](https://github.com/user-attachments/assets/346ca40f-11c2-4ddc-9f97-558c0f81a0b5)
+
