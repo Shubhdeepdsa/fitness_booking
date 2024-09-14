@@ -48,7 +48,7 @@ fitness-slot-booking-system/
 │   │   ├── styles/
 │   │   │   ├── ClassesList.css
 │   │   │   ├── UserBookings.css
-│   │   │   └── App.css       # General app-wide styles
+│   ├── App.css               # General app-wide styles
 │   ├── App.jsx               # Main app component
 │   └── index.js              # Entry point for the React application
 │
@@ -57,37 +57,46 @@ fitness-slot-booking-system/
 └── README.txt                # This file
 ```
 
-## Getting Started
 
-### Prerequisites
-- **Node.js**: Install Node.js from https://nodejs.org/
-- **npm**: Node Package Manager (comes with Node.js)
-- **React**: Create the project using create-react-app or similar.
+### Getting Started
 
 ### Installation
 1. **Clone the repository:**
-   ```
+   ```bash
    git clone https://github.com/your-username/fitness-slot-booking-system.git
    cd fitness-slot-booking-system
    ```
 
-2. **Install dependencies:**
-   ```
-   npm install
-   ```
+2. **Install dependencies for both frontend and backend:**
+   - **Backend:**
+     ```bash
+     npm install
+     ```
+   - **Frontend:**
+     Navigate to the `src` directory where the React app is located and install its dependencies.
+     ```bash
+     npm install
+     cd ..
+     ```
 
 3. **Start the backend server:**
-   ```
+   ```bash
    node server.js
    ```
 
 4. **Start the React frontend:**
-   ```
+   - Make sure you're in the root directory of the project (or the frontend directory if structured separately).
+   ```bash
    npm start
    ```
 
 5. **Open the application:**
-   - Go to `http://localhost:5173` in your web browser.
+   - The React frontend should open automatically in your default web browser at `http://localhost:3000` (or the port specified by React).
+   - The backend is running on `http://localhost:5000`.
+
+### Additional Notes:
+- If you encounter any errors, ensure both **Node.js** and **npm** are correctly installed and the environment variables (if any) are properly configured.
+- If the ports conflict with other services on your system, you can change them in the server or frontend configurations.
 
 ## Usage
 
