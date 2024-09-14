@@ -1,0 +1,77 @@
+/* ClassesList.css */
+
+/* Container styles */
+.classes-container {
+    background-color: #3b3b3b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    flex: 1;
+}
+
+/* Title */
+.classes-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f0f0f0;
+    margin-bottom: 16px;
+}
+
+/* Date input */
+.date-input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    background-color: #4b4b4b;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Class card */
+.class-card {
+    padding: 16px;
+    background-color: #4b4b4b;
+    border: 1px solid #666;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    transition: transform 0.2s;
+}
+
+.class-card:hover {
+    transform: translateY(-4px);
+}
+
+.class-title {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    margin-bottom: 8px;
+}
+
+.class-description {
+    color: #ccc;
+    margin-bottom: 12px;
+}
+
+/* Book button */
+.book-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .classes-container {
+        max-width: 100%;
+    }
+}

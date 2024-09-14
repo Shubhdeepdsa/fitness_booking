@@ -1,0 +1,59 @@
+/* App.css */
+
+/* General app container styles */
+.app-container {
+    min-height: 100vh; /* Full viewport height */
+    background-color: #2d2d2d;
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+/* Title styling */
+.app-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f0f0f0;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+/* Message container */
+.message-container {
+    margin-top: 20px;
+    text-align: center;
+    color: #ff4c4c;
+    font-size: 1.2rem;
+}
+
+/* Responsive layout for the main section */
+.main-section {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+    .app-container {
+        padding: 16px;
+    }
+
+    .app-title {
+        font-size: 2rem;
+        margin-bottom: 24px;
+    }
+
+    .message-container {
+        font-size: 1rem;
+    }
+
+    .main-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
